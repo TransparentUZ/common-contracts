@@ -1,4 +1,4 @@
-package uz.powercorp.common.dto.request;
+package uz.powercorp.common.dto.request.multicard;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

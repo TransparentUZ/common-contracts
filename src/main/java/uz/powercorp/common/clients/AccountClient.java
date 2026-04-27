@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import uz.powercorp.common.dto.request.UpdateBalanceRequestDTO;
 import uz.powercorp.common.dto.response.account.CheckBalanceResponseDTO;
 
-@FeignClient(name = "account-service", url = "${feign.client.account-service.url}", configuration = FeignAuthInterceptor.class)
+@FeignClient(name = "account-service", path = "/account", configuration = FeignAuthInterceptor.class)
 public interface AccountClient {
 
     @PostMapping("/update-balance/{agentID}")
