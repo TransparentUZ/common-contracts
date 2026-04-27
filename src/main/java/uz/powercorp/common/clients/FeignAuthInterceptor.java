@@ -2,8 +2,8 @@ package uz.powercorp.common.clients;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
-import uz.powercorp.common.UserContext;
 import org.springframework.stereotype.Component;
+import uz.powercorp.common.UserContext;
 
 @Component
 public class FeignAuthInterceptor implements RequestInterceptor {
