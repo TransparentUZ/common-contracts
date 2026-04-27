@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import uz.powercorp.common.dto.request.CardTransactionsCountsRequestDTO;
+import uz.powercorp.common.dto.request.bank.CardTransactionsCountsRequestDTO;
 import uz.powercorp.common.dto.response.bank.BankResponseDTO;
 import uz.powercorp.common.dto.response.bank.CardResponseDTO;
 

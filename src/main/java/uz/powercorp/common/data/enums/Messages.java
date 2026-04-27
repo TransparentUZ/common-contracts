@@ -2,7 +2,9 @@ package uz.powercorp.common.data.enums;
 
 public enum Messages {
     TRANSACTION_EVENT ("Transaction Event"),
-    NOTIFICATION_EVENT ("Notification Event");
+    NOTIFICATION_EVENT ("Notification Event"),
+    CARD_EVENT ("Card Event");
+
     private  String message;
 
     Messages(String message) {
